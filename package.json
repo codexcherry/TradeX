@@ -1,0 +1,44 @@
+{
+  "name": "tradex",
+  "version": "2.0.0",
+  "description": "A modern, feature-rich stock trading and analysis platform built with Next.js, featuring real-time stock data, AI-powered insights, and advanced charting capabilities.",
+  "private": true,
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codexcherry/TradeX.git"
+  },
+  "keywords": [
+    "stock-trading",
+    "nextjs",
+    "typescript",
+    "ai",
+    "charts",
+    "finance",
+    "trading-platform"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd Dashboard && npm run dev",
+    "dev:backend": "nodemon server.js",
+    "build": "cd Dashboard && npm run build",
+    "start": "cd Dashboard && npm start",
+    "install-deps": "npm install && cd Dashboard && npm install",
+    "lint": "cd Dashboard && npm run lint",
+    "clean": "rm -rf node_modules Dashboard/node_modules Dashboard/.next"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
