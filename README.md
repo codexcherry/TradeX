@@ -27,6 +27,32 @@ A modern, feature-rich stock trading and analysis platform built with Next.js, f
 - **Market Overview**: AI-generated market insights and trends
 - **Trading Recommendations**: AI-powered trading suggestions
 
+## 📸 Screenshots
+
+### Dashboard Overview
+![Dashboard](./Assets/dashboard.jpg)
+*Main dashboard with market overview, watchlist, and stock explorer*
+
+### AI Assistant Interface
+![AI Assistant](./Assets/ai-assistance.jpg)
+*AI-powered stock market assistant with natural language queries*
+
+### Stock Performance Analysis
+![Task Performance](./Assets/taskperformance.jpg)
+*Detailed stock performance analysis with candlestick charts and technical indicators*
+
+### Watchlist Management
+![Watchlist](./Assets/watchlist.jpg)
+*Personalized watchlist with popular and recommended stocks*
+
+### Settings & Notifications
+![Settings](./Assets/settings.jpg)
+*User settings and notification preferences*
+
+### Application Overview
+![Overview](./Assets/1.jpg)
+*Complete application interface overview*
+
 ## 🛠️ Technology Stack
 
 ### Frontend
