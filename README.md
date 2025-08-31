@@ -37,14 +37,22 @@ TradeX is a comprehensive stock trading platform that combines real-time market 
 | **APIs** | Yahoo Finance, Alpha Vantage, Google Gemini AI |
 | **Data** | CSV files, Real-time API integration |
 
-## 📸 Screenshots
+## 📸 Screenshots & Demo
 
-| Feature | Preview |
-|---------|---------|
-| **Dashboard** | ![Dashboard](./Assets/dashboard.jpg) |
-| **AI Assistant** | ![AI Assistant](./Assets/ai-assistance.jpg) |
-| **Stock Analysis** | ![Analysis](./Assets/taskperformance.jpg) |
-| **Watchlist** | ![Watchlist](./Assets/watchlist.jpg) |
+### 🎬 Live Demo
+![TradeX Demo](./Demo.jpg)
+*Complete TradeX platform demonstration*
+
+### 📱 Application Screenshots
+
+| Feature | Preview | Description |
+|---------|---------|-------------|
+| **Dashboard Overview** | ![Dashboard](./dashboard.jpg) | Main trading dashboard with market overview, real-time data, and stock explorer |
+| **AI Assistant** | ![AI Assistant](./ai-assistance.jpg) | Intelligent AI-powered assistant for stock analysis and market insights |
+| **Performance Analysis** | ![Task Performance](./taskperformance.jpg) | Detailed stock performance charts with technical indicators and analysis |
+| **Watchlist Management** | ![Watchlist](./watchlist.jpg) | Personalized watchlist with favorite stocks and real-time tracking |
+| **Settings & Preferences** | ![Settings](./settings.jpg) | User settings, notifications, and platform customization options |
+| **Complete Interface** | ![Overview](./1.jpg) | Full application interface showing all features and components |
 
 ## 🚀 Quick Start
 
@@ -100,13 +108,21 @@ npm run dev:backend   # Backend only (localhost:3001)
 
 ```
 TradeX/
-├── 📄 README.md                    # This file
+├── 📄 README.md                    # Main documentation
 ├── 📄 PROJECT_STRUCTURE.md         # Detailed architecture guide
 ├── 📄 package.json                 # Root package with scripts
 ├── 🖥️  server.js                   # Express backend server
 ├── 📊 StockData/                   # CSV stock data files
 │   ├── stock_data.csv
 │   └── market_data.csv
+├── 🖼️  Assets/                     # Project screenshots and media
+│   ├── Demo.jpg                    # Live demo screenshot
+│   ├── 1.jpg                       # Complete application overview
+│   ├── dashboard.jpg               # Main dashboard interface
+│   ├── ai-assistance.jpg           # AI assistant interface
+│   ├── taskperformance.jpg         # Performance analysis charts
+│   ├── watchlist.jpg               # Watchlist management
+│   └── settings.jpg                # Settings and preferences
 └── 🎨 Dashboard/                   # Next.js frontend
     ├── 📱 app/                     # App Router (Next.js 13+)
     │   ├── page.tsx                # Home page
@@ -292,6 +308,8 @@ curl http://localhost:3001/api/stocks
 - **Chart Rendering**: < 500ms
 - **API Response Time**: < 2s average
 
+
 ## Developed by
 
 codexcherry © 2025 
+> **Note**: This is a educational/demonstration project. Always do your own research before making investment decisions. TradeX is not a financial advisor and does not provide investment advice.
