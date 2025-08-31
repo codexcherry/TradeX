@@ -6,7 +6,7 @@ TradeX is a comprehensive stock trading platform that combines real-time market 
 
 ## ✨ Key Features
 
-### 🔥 Core Trading Features
+### Core Trading Features
 - **Real-Time Market Data** - Live stock prices and market updates
 - **Interactive Candlestick Charts** - Professional-grade charting with zoom and pan
 - **Multiple Timeframes** - 1D, 1W, 1M, 3M, 1Y analysis periods
@@ -37,22 +37,25 @@ TradeX is a comprehensive stock trading platform that combines real-time market 
 | **APIs** | Yahoo Finance, Alpha Vantage, Google Gemini AI |
 | **Data** | CSV files, Real-time API integration |
 
-## 📸 Screenshots & Demo
+## 📸 Screenshots
 
-### 🎬 Live Demo
-![TradeX Demo](./Demo.jpg)
-*Complete TradeX platform demonstration*
+![Dashboard Overview](./Assets/dashboard.jpg)
+*Main trading dashboard with market overview, real-time data, and stock explorer*
 
-### 📱 Application Screenshots
+![AI Assistant](./Assets/ai-assistance.jpg)
+*Intelligent AI-powered assistant for stock analysis and market insights*
 
-| Feature | Preview | Description |
-|---------|---------|-------------|
-| **Dashboard Overview** | ![Dashboard](./dashboard.jpg) | Main trading dashboard with market overview, real-time data, and stock explorer |
-| **AI Assistant** | ![AI Assistant](./ai-assistance.jpg) | Intelligent AI-powered assistant for stock analysis and market insights |
-| **Performance Analysis** | ![Task Performance](./taskperformance.jpg) | Detailed stock performance charts with technical indicators and analysis |
-| **Watchlist Management** | ![Watchlist](./watchlist.jpg) | Personalized watchlist with favorite stocks and real-time tracking |
-| **Settings & Preferences** | ![Settings](./settings.jpg) | User settings, notifications, and platform customization options |
-| **Complete Interface** | ![Overview](./1.jpg) | Full application interface showing all features and components |
+![Performance Analysis](./Assets/taskperformance.jpg)
+*Detailed stock performance charts with technical indicators and analysis*
+
+![Watchlist Management](./Assets/watchlist.jpg)
+*Personalized watchlist with favorite stocks and real-time tracking*
+
+![Settings & Preferences](./Assets/settings.jpg)
+*User settings, notifications, and platform customization options*
+
+![Complete Interface](./Assets/1.jpg)
+*Full application interface showing all features and components*
 
 ## 🚀 Quick Start
 
@@ -142,7 +145,7 @@ TradeX/
     └── ⚙️  next.config.js           # Next.js configuration
 ```
 
-## 🔌 API Integration
+##  API Integration
 
 ### Stock Data Sources
 
@@ -162,7 +165,7 @@ GET  /api/stocks/:symbol/forecast  // Stock price forecast
 POST /api/ai/analyze          // AI stock analysis
 ```
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Adding Stocks to Watchlist
 ```javascript
@@ -200,116 +203,17 @@ POST /api/ai/analyze          // AI stock analysis
 - **Rate Limiting**: API request throttling
 - **No Personal Data**: No user data stored locally
 
-## 🚀 Deployment
+## Acknowledgments
 
-### Quick Deploy
-
-#### Frontend (Vercel)
-```bash
-# Build and deploy frontend
-cd Dashboard
-npm run build
-# Deploy to Vercel, Netlify, or your preferred platform
-```
-
-#### Backend (Railway/Heroku)
-```bash
-# Deploy server.js to your preferred Node.js hosting platform
-# Ensure environment variables are set in production
-```
-
-### Production Environment Variables
-
-```env
-# Production .env.local
-NEXT_PUBLIC_GEMINI_API_KEY=your_production_gemini_key
-ALPHA_VANTAGE_API_KEY=your_production_alpha_vantage_key
-NEXT_PUBLIC_BACKEND_URL=https://your-backend-url.com
-NODE_ENV=production
-```
-
-## 🔧 Development Commands
-
-```bash
-# Install dependencies for both frontend and backend
-npm run install-deps
-
-# Start development servers (both frontend and backend)
-npm run dev
-
-# Start only frontend (localhost:3000)
-npm run dev:frontend
-
-# Start only backend (localhost:3001)
-npm run dev:backend
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-
-# Type checking
-npm run type-check
-
-# Linting
-npm run lint
-```
-
-## 🎨 Customization
-
-### Themes & Styling
-- Modify `Dashboard/app/globals.css` for global styles
-- Update Tailwind configuration in `Dashboard/tailwind.config.js`
-- Customize chart themes in `Dashboard/components/charts/`
-
-### AI Prompts
-- Edit AI prompts in `Dashboard/lib/ai-prompts.ts`
-- Customize response formatting in AI components
-- Add new analysis types in the AI assistant
-
-### Adding New Features
-- **New Pages**: Add to `Dashboard/app/`
-- **New Components**: Add to `Dashboard/components/`
-- **New APIs**: Add routes to `Dashboard/app/api/`
-- **Backend Routes**: Extend `server.js`
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Frontend won't start**
-```bash
-# Clear cache and reinstall
-rm -rf Dashboard/node_modules Dashboard/.next
-cd Dashboard && npm install
-```
-
-**Backend connection issues**
-```bash
-# Check if backend is running on port 3001
-curl http://localhost:3001/api/stocks
-```
-
-**API key errors**
-- Verify API keys in `.env.local`
-- Check API key permissions and quotas
-- Ensure keys are properly formatted
-
-**Chart not displaying**
-- Check browser console for errors
-- Verify stock symbol exists
-- Try refreshing the page
-
-## 📈 Performance Metrics
-
-- **First Contentful Paint**: < 1.5s
-- **Time to Interactive**: < 3s
-- **Chart Rendering**: < 500ms
-- **API Response Time**: < 2s average
-
+- **TradingView** for Lightweight Charts library
+- **Yahoo Finance** for free stock data API
+- **Google** for Gemini AI integration
+- **Alpha Vantage** for market data and forecasting APIs
+- **Vercel** for Next.js framework and deployment platform
+- **shadcn** for beautiful UI components
+- **Radix UI** for accessible component primitives
+- **Tailwind CSS** for utility-first styling framework
 
 ## Developed by
 
-codexcherry © 2025 
-> **Note**: This is a educational/demonstration project. Always do your own research before making investment decisions. TradeX is not a financial advisor and does not provide investment advice.
+**codexcherry © 2025**
